@@ -5,8 +5,8 @@ Example of accepted and rejected inputs:
 
 /*
    pass : 
+   
     x = 0.5 ;
-    
     x = .5 ;
     x = .5e+4 ;
     x = .5e4 ;
@@ -22,8 +22,8 @@ Example of accepted and rejected inputs:
 
 /*
    fail :
-    x = -.E-4 ; // flaw
-    
+   
+    x = -.E-4 ; // flaw   
     x = -2.f-4 ; // this gives -6, for our purposes, f not legit modifier
     x =-2-4 ; // gvies -6
     x = 2.3-e4 ;  // no
